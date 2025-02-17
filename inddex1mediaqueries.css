@@ -1,0 +1,227 @@
+@media (min-width:320px) {
+    .firstpofhead {
+        font-size: 1.2rem;
+    }
+
+    .firsthofhead {
+        font-size: 2.3rem;
+    }
+
+    .hrofhead {
+        width: 14.3rem;
+    }
+
+    .lastpofhead {
+        font-size: 0.96rem;
+    }
+}
+
+@media (min-width:576px) {
+    .firstpofhead {
+        font-size: 1.7rem;
+    }
+
+    .firsthofhead {
+        font-size: 3.25rem;
+    }
+
+    .hrofhead {
+        width: 20.3rem;
+    }
+
+    .lastpofhead {
+        font-size: 1.35rem;
+    }
+
+    /* image and form  */
+    /* .col-sm-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        margin-bottom: 10px;
+    } */
+    .bg-image {
+        width: 535px;
+        height: 452px;
+    }
+
+    .rightimg img {
+        width: 535px;
+        height: 452px;
+    }
+    .bluehead {
+        color: rgb(58, 15, 177);
+        font-size: 2.5rem;
+    }
+    #formfirstpargraph {
+        font-size: 1.3rem;
+        margin-left: 0px;
+    }
+    
+}
+
+@media (min-width:768px) {
+
+    /* header */
+    .firstpofhead {
+        font-size: 1.2rem;
+    }
+
+    .firsthofhead {
+        font-size: 2.3rem;
+    }
+
+    .hrofhead {
+        width: 14.3rem;
+    }
+
+    .lastpofhead {
+        font-size: 0.96rem;
+    }
+
+    /* image and form  */
+
+    .bg-image {
+        width: 363px;
+        height: 420px;
+    }
+
+    .rightimg img {
+        width: 351px;
+        height: 420px;
+    }
+
+    .head1inform {
+        font-size: 1.7rem;
+        height: 30px;
+        width: 200px;
+    }
+
+    #head2inform {
+        font-size: 1rem;
+    }
+
+    .bluehead {
+        font-size: 1.43rem;
+    }
+
+    #formfirstpargraph {
+        font-size: 0.9rem;
+        margin-left: 6px;
+    }
+
+    #floatingTextarea {
+        width: 85%;
+        margin-left: 27px;
+        margin-top: 10px;
+    }
+
+    .gap-4 {
+        gap: 0.5rem !important;
+    }
+
+    #input1text {
+        width: 150px;
+    }
+
+    #input2text {
+        width: 150px;
+    }
+
+    #input3text {
+        width: 150px;
+    }
+
+    .confidentialimg img {
+        transform: rotate(8deg) !important;
+        height: 50px;
+        width: 120px;
+    }
+
+    .btnform p {
+        padding: 4px;
+        font-size: 13px;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    /* header */
+    .firstpofhead {
+        font-size: 1.7rem;
+    }
+
+    .firsthofhead {
+        font-size: 3.25rem;
+    }
+
+    .hrofhead {
+        width: 20.3rem;
+    }
+
+    .lastpofhead {
+        font-size: 1.35rem;
+    }
+
+    /* image and form  */
+    .bg-image {
+        width: 475px;
+        height: 460px;
+    }
+
+    .rightimg img {
+        width: 463px;
+        height: 460px;
+    }
+
+    .head1inform {
+        font-size: 2rem;
+        height: 40px;
+        width: 225px;
+    }
+
+    #head2inform {
+        font-size: 1.4rem;
+    }
+
+    .bluehead {
+        font-size: 2.2rem;
+    }
+
+    #formfirstpargraph {
+        font-size: 1.1rem;
+        margin-left: 15px;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+    /* header */
+    .firstpofhead {
+        font-size: 2rem;
+    }
+
+    .firsthofhead {
+        font-size: 3.8rem;
+    }
+
+    .hrofhead {
+        width: 23.8rem;
+    }
+
+    .lastpofhead {
+        font-size: 1.56rem;
+    }
+
+    /* image and form  */
+    .bg-image {
+        width: 579px;
+    }
+
+    .rightimg img {
+        width: 575px;
+    }
+}

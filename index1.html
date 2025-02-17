@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task4 with bootstrape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="inddex1mediaqueries.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container-fluid bg-light border-bottom px-3 py-0">
+        <div class="row     align-items-center">
+
+            <!-- Logo Column (Left) -->
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12  ">
+                <img src="images/logo.png" alt="Logo" class="img-fluid">
+            </div>
+
+            <!-- Text Column (Right) -->
+            <div class="px-4 col-xl-6 col-lg-6 col-md-6 
+        align-items-xl-end align-items-lg-end align-items-md-end 
+        text-lg-end
+         col-sm-12 d-flex
+         align-items-center 
+         flex-column text-sm-center
+         align-items-sm-center  ">
+                <p class=" fw-bold  m-0 
+            firstpofhead ">CALL OUR OFFICES NOW!</p>
+                <hr class="border border-3 border-dark  m-0 hrofhead">
+                <h1 class="fw-bold text-dark  m-0 firsthofhead">540.433.6906</h1>
+                <p class="text-dark  m-0 lastpofhead ">Get Your Questions Answered Fast</p>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar fw-bold navbar-expand-lg navbar-dark bg-brown">
+        <div class="container me-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex gap-4 ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">BIOGRAPHY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">AREAS WE SERVE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">LIBRARY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- form and image -->
+    <div class="container-fluid  row d-flex justify-content-center align-items-center mt-4 mb-4 ">
+        <!-- Left Column -->
+        <div class="rightimg col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+            <img src="images/gurantee_banner.gif" alt="">
+        </div>
+        <!-- Right Column -->
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 bg-image  p-0">
+
+            <div class="formheadrtext d-flex gap-4 ">
+                <h1 class="bg-brown fw-bold head1inform  ">QUESTIONS?</h1>
+                <h2 id="head2inform">Have a <span class="fw-bold bluehead">Question</span> <br>
+                    About Your Case ?</h2>
+            </div>
+            <div class="formelements">
+                <p id="formfirstpargraph">Enter your information and get your questions answered <br> quickly and
+                    discreetly or call us at : <span class="fw-bold">540.433.6906</span> </p>
+            </div>
+            <div class="form d-flex justify-content-center align-items-center gap-4">
+                <div class="emailnamephone">
+                    <label id="leble1text" for="name">NAME</label>
+                    <input id="input1text" type="text"><br><br>
+                    <label id="leble2text" for="email">EMAIL</label>
+                    <input id="input2text" type="text"><br><br>
+                    <label id="leble3text" for="number">PHONE</label>
+                    <input id="input3text" type="number">
+                </div>
+                <div class="confidentialimg">
+                    <img src="images/confidential.png" alt="">
+                </div>
+            </div>
+            <textarea class="form-control" placeholder="Tell us about your case here" id="floatingTextarea"></textarea>
+            <div class="bottomofform ">
+                <p id="lastp" >100% privacy Guaranteed</p>
+                <div class="btnform fw-bold ">
+                    <p>Ask Us About Your Case 
+                        <img src="images/bullet_white.gif" alt="">
+                    </p>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

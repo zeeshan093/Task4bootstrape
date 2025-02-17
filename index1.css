@@ -1,0 +1,75 @@
+/* header */
+.firstpofhead{
+    color: brown !important;
+}
+/* navbar */
+.bg-brown{
+    background-color: brown;
+    color: white;
+}
+ul li{
+    color: white;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+/* image and form */
+.bg-image {
+    background-image: url('images/form_bg.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 610px;  
+}
+.rightimg img {
+    height: 480px;
+    width: 595px;
+}
+.head1inform {
+    height: 55px;
+    width: 245px;
+}
+.bluehead{
+    color: rgb(58, 15, 177);
+    font-size: 2.8rem;
+}
+#formfirstpargraph{
+    font-size: 1.3rem;
+    margin-left: 40px;
+}
+.confidentialimg{
+    transform: rotate(15deg) !important;
+    height: 50px;
+}
+#floatingTextarea{
+    width: 85%;
+    margin-left: 44px;
+    margin-top: 10px;
+}
+.bottomofform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.btnform{
+    background-color: brown;
+    color: white;
+   margin: 0px; 
+    
+}
+.btnform p {
+    padding: 5px;
+    margin: 0px;
+    font-size: 22px
+}
+.btnform p img{
+ width: 12px;
+ height: 12px;
+}
+.bottomofform p{
+    margin-bottom: 0px;
+}
